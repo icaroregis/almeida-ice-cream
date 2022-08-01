@@ -1,0 +1,6 @@
+@import "./Global/Global.css";
+@import "./Color-palette/color-palette.css";
+@import "./ContainerMaster/Container.css";
+@import "./Header/header.css";
+@import "./main/main.css";
+@import "./Footer/footer.css";

@@ -1,0 +1,124 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.container-one {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 15.625rem;
+  border-radius: 20px;
+}
+
+.container-two {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 28.125rem;
+  border-radius: 20px;
+}
+
+.container-three {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 15.625rem;
+  border-radius: 20px;
+}
+
+.container-four {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 28.125rem;
+  border-radius: 20px;
+}
+
+.container-five {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 15.625rem;
+  border-radius: 20px;
+}
+
+.container-six {
+  position: relative;
+  margin: 0 auto;
+  width: 20rem;
+  height: 28.125rem;
+  border-radius: 20px;
+}
+
+.container-one h3,
+.container-two h3,
+.container-three h3,
+.container-four h3,
+.container-five h3,
+.container-six h3 {
+  top: 16px;
+  right: 16px;
+  position: absolute;
+  display: inline-block;
+  padding: 5px 24px;
+  background-color: var(--title-bg-color-products);
+  border-radius: 19px;
+}
+
+#paletas {
+  background: url("../../assets/sorvetes/sorvete1.svg") no-repeat center;
+  object-fit: cover;
+}
+
+#shakes {
+  background: url("../../assets/sorvetes/sorvete4.svg") no-repeat center;
+  object-fit: cover;
+}
+
+#massas {
+  background: url("../../assets/sorvetes/sorvete2.png") no-repeat center;
+  object-fit: cover;
+}
+
+#picoles {
+  background: url("../../assets/sorvetes/sorvete4.svg") no-repeat center;
+  object-fit: cover;
+}
+
+@media (min-width: 800px) {
+  main {
+    flex-direction: row;
+  }
+
+  .section-one {
+    height: 100vh;
+    background-color: var(--header-bg-color);
+  }
+
+  .section-two {
+    height: 100vh;
+    padding: 40px 98px 20px;
+  }
+
+  .container-one,
+  .container-four,
+  .container-five {
+    width: 13.75rem;
+    height: 9.375rem;
+  }
+
+  .container-two,
+  .container-three,
+  .container-six {
+    width: 13.75rem;
+    height: 21.875rem;
+  }
+}
